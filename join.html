@@ -1,0 +1,152 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>GameArena - Tournament Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="font-roboto bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a class="text-white text-2xl font-bold" href="#">GameArena</a>
+        <div class="space-x-4">
+            <a class="text-gray-300 hover:text-white" href="index.html">Home</a>
+          <a class="text-gray-300 hover:text-white" href="#">Games</a>
+          <a class="text-gray-300 hover:text-white" href="#">Tournaments</a>
+          <a class="text-gray-300 hover:text-white" href="#">Leaderboards</a>
+          <a class="text-gray-300 hover:text-white" href="#">Community</a>
+          <a class="text-gray-300 hover:text-white" href="index.html">Back</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tournament Details Section -->
+    <section class="py-12 bg-gray-200">
+      <div class="container mx-auto">
+        <!-- Tournament Title and Info -->
+        <div class="bg-white shadow-lg rounded-lg p-8 mb-8">
+          <h2 class="text-4xl font-bold text-center mb-4">Tournament Name</h2>
+          <p class="text-xl text-center text-gray-700 mb-6">Prize Pool: $50,000</p>
+          <p class="text-center text-lg text-gray-600 mb-4">
+            A high-stakes competition featuring top teams from around the world! Compete for glory and cash prizes.
+          </p>
+          
+          <div class="flex justify-center space-x-4">
+            <a
+              href="tr.html"
+              class="bg-blue-500 hover:bg-blue-700 text-white py-2 px-4 rounded-lg font-semibold"
+            >
+              Register Now
+            </a>
+            <a
+              href="rule.html"
+              class="bg-gray-500 hover:bg-gray-700 text-white py-2 px-4 rounded-lg font-semibold"
+            >
+              View Rules
+            </a>
+          </div>
+        </div>
+
+        <!-- Tournament Schedule -->
+        <div class="bg-white shadow-lg rounded-lg p-8 mb-8">
+          <h3 class="text-2xl font-bold mb-6 text-center">Tournament Schedule</h3>
+          <div class="space-y-6">
+            <div class="flex justify-between items-center">
+              <span class="text-lg font-semibold">Round 1: Team A vs Team B</span>
+              <span class="text-gray-600">12:00 PM, 15th Jan</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-lg font-semibold">Round 2: Team C vs Team D</span>
+              <span class="text-gray-600">2:00 PM, 15th Jan</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-lg font-semibold">Semifinal 1: Team E vs Team F</span>
+              <span class="text-gray-600">4:00 PM, 16th Jan</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-lg font-semibold">Final: Team G vs Team H</span>
+              <span class="text-gray-600">6:00 PM, 16th Jan</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Participating Teams -->
+        <div class="bg-white shadow-lg rounded-lg p-8 mb-8">
+          <h3 class="text-2xl font-bold mb-6 text-center">Participating Teams</h3>
+          <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="text-center">
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Team A"
+                class="mx-auto rounded-full mb-4"
+              />
+              <h4 class="text-lg font-semibold">Team A</h4>
+              <p class="text-gray-600">Team captain: John Doe</p>
+            </div>
+            <div class="text-center">
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Team B"
+                class="mx-auto rounded-full mb-4"
+              />
+              <h4 class="text-lg font-semibold">Team B</h4>
+              <p class="text-gray-600">Team captain: Jane Smith</p>
+            </div>
+            <div class="text-center">
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Team C"
+                class="mx-auto rounded-full mb-4"
+              />
+              <h4 class="text-lg font-semibold">Team C</h4>
+              <p class="text-gray-600">Team captain: Alex Johnson</p>
+            </div>
+            <div class="text-center">
+              <img
+                src="https://via.placeholder.com/150"
+                alt="Team D"
+                class="mx-auto rounded-full mb-4"
+              />
+              <h4 class="text-lg font-semibold">Team D</h4>
+              <p class="text-gray-600">Team captain: Sarah Lee</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Prize Breakdown -->
+        <div class="bg-white shadow-lg rounded-lg p-8">
+          <h3 class="text-2xl font-bold mb-6 text-center">Prize Breakdown</h3>
+          <div class="space-y-4">
+            <div class="flex justify-between items-center">
+              <span class="text-lg">1st Place</span>
+              <span class="text-gray-600">$25,000</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-lg">2nd Place</span>
+              <span class="text-gray-600">$15,000</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-lg">3rd Place</span>
+              <span class="text-gray-600">$5,000</span>
+            </div>
+            <div class="flex justify-between items-center">
+              <span class="text-lg">4th Place</span>
+              <span class="text-gray-600">$2,500</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>© 2023 GameArena. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>

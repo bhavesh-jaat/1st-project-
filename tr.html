@@ -1,0 +1,163 @@
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>GameArena - Tournament Registration</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  </head>
+
+  <body class="font-roboto bg-gray-100">
+    <!-- Navigation Bar -->
+    <nav class="bg-gray-800 p-4">
+      <div class="container mx-auto flex justify-between items-center">
+        <a class="text-white text-2xl font-bold" href="#">GameArena</a>
+        <div class="space-x-4">
+          <a class="text-gray-300 hover:text-white" href="#">Games</a>
+          <a class="text-gray-300 hover:text-white" href="#">Tournaments</a>
+          <a class="text-gray-300 hover:text-white" href="#">Leaderboards</a>
+          <a class="text-gray-300 hover:text-white" href="#">Community</a>
+          <a class="text-gray-300 hover:text-white" href="#">Login</a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tournament Registration Form -->
+    <section class="py-12 bg-gray-200">
+      <div class="container mx-auto">
+        <div class="bg-white shadow-lg rounded-lg p-8">
+          <h2 class="text-3xl font-bold text-center mb-6">Tournament Registration</h2>
+          <p class="text-center text-lg text-gray-600 mb-6">
+            Sign up to participate in the exciting tournament and compete for amazing prizes!
+          </p>
+
+          <!-- Registration Form -->
+          <form action="#" method="POST">
+            <!-- Team Information -->
+            <div class="mb-6">
+              <label for="team-name" class="block text-lg font-semibold text-gray-700 mb-2">Team Name</label>
+              <input
+                type="text"
+                id="team-name"
+                name="team-name"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter your team name"
+                required
+              />
+            </div>
+
+            <div class="mb-6">
+              <label for="team-captain" class="block text-lg font-semibold text-gray-700 mb-2">Team Captain</label>
+              <input
+                type="text"
+                id="team-captain"
+                name="team-captain"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter team captain's name"
+                required
+              />
+            </div>
+
+            <!-- Player Information -->
+            <div class="mb-6">
+              <label for="player1" class="block text-lg font-semibold text-gray-700 mb-2">Player 1</label>
+              <input
+                type="text"
+                id="player1"
+                name="player1"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter Player 1 name"
+                required
+              />
+            </div>
+
+            <div class="mb-6">
+              <label for="player2" class="block text-lg font-semibold text-gray-700 mb-2">Player 2</label>
+              <input
+                type="text"
+                id="player2"
+                name="player2"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter Player 2 name"
+                required
+              />
+            </div>
+
+            <div class="mb-6">
+              <label for="player3" class="block text-lg font-semibold text-gray-700 mb-2">Player 3</label>
+              <input
+                type="text"
+                id="player3"
+                name="player3"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter Player 3 name"
+              />
+            </div>
+
+            <div class="mb-6">
+              <label for="player4" class="block text-lg font-semibold text-gray-700 mb-2">Player 4 (Optional)</label>
+              <input
+                type="text"
+                id="player4"
+                name="player4"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter Player 4 name (Optional)"
+              />
+            </div>
+
+            <!-- Contact Information -->
+            <div class="mb-6">
+              <label for="contact-email" class="block text-lg font-semibold text-gray-700 mb-2">Contact Email</label>
+              <input
+                type="email"
+                id="contact-email"
+                name="contact-email"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter a contact email"
+                required
+              />
+            </div>
+
+            <div class="mb-6">
+              <label for="contact-phone" class="block text-lg font-semibold text-gray-700 mb-2">Contact Phone (Optional)</label>
+              <input
+                type="tel"
+                id="contact-phone"
+                name="contact-phone"
+                class="w-full p-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                placeholder="Enter a contact phone number (Optional)"
+              />
+            </div>
+
+            <!-- Tournament Terms & Conditions -->
+            <div class="mb-6 flex items-center">
+              <input
+                type="checkbox"
+                id="terms"
+                name="terms"
+                class="mr-2"
+                required
+              />
+              <label for="terms" class="text-gray-700">I agree to the <a href="#" class="text-blue-500">Terms & Conditions</a></label>
+            </div>
+
+            <!-- Submit Button -->
+            <div class="text-center">
+             
+                <a class="bg-blue-500 hover:bg-blue-700 text-white py-3 px-6 rounded-lg font-semibold" href="sr.html" > Register Team</a> 
+              
+            </div>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-6">
+      <div class="container mx-auto text-center">
+        <p>© 2023 GameArena. All rights reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
